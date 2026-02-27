@@ -10,6 +10,7 @@ const links: { href: Route; label: string }[] = [
   { href: '/', label: 'Home' },
   { href: '/rutinitas', label: 'Rutinitas' },
   { href: '/journal', label: 'Journal' },
+  { href: '/links', label: 'Links' },
   { href: '/about', label: 'About' }
 ];
 
