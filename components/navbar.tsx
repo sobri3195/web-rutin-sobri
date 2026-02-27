@@ -1,11 +1,12 @@
 'use client';
 
 import Link from 'next/link';
+import type { Route } from 'next';
 import { usePathname } from 'next/navigation';
 import { PegasusLogo } from './pegasus-logo';
 import { useTheme } from './theme-provider';
 
-const links = [
+const links: { href: Route; label: string }[] = [
   { href: '/', label: 'Home' },
   { href: '/rutinitas', label: 'Rutinitas' },
   { href: '/journal', label: 'Journal' },
